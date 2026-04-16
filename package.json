@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/sweethehe/Docker_API_CI-CD#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "pg": "^8.20.0",
+    "redis": "^5.12.1"
   },
   "devDependencies": {
     "eslint": "^10.2.0",

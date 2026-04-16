@@ -1,0 +1,29 @@
+{
+  "name": "docker_api_ci-cd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sweethehe/Docker_API_CI-CD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sweethehe/Docker_API_CI-CD/issues"
+  },
+  "homepage": "https://github.com/sweethehe/Docker_API_CI-CD#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^10.2.0",
+    "jest": "^30.3.0",
+    "supertest": "^7.2.2"
+  }
+}

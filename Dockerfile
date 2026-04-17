@@ -1,5 +1,5 @@
 # ========== STAGE 1 : Build ==========
-FROM node:24-alpine AS builder
+FROM node:20.12-alpine3.19 AS builder
 WORKDIR /app
 
 COPY package.json package-lock.json ./
@@ -8,7 +8,7 @@ RUN npm ci
 COPY . .
 
 # ========== STAGE 2 : Production ==========
-FROM node:24-alpine AS production
+FROM node:20.12-alpine3.19 AS production
 WORKDIR /app
 
 RUN addgroup -S appgroup && adduser -S appuser -G appgroup
